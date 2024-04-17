@@ -1,0 +1,172 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.header h1{
+    font-size: 80px;
+}
+
+.info{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.info h1{
+    font-size: 80px;
+}
+
+.info img{
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.inf{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.in h1{
+    font-size: 80px;
+}
+
+.inf img{
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.in p{
+    font-size: 30px;
+}
+
+.direct{
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 100px;
+}
+
+.dir img{
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.der img{
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.direct h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.man img{
+    width: 450px;
+    height: 500px;
+    border-radius: 25px;
+}
+
+.man{
+    width: auto;
+    height: 500px;
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 100px;
+}
+
+.man p{
+    font-size: 23px;
+}
+
+.block table tr td img{
+    width: 250px;
+    height: 250px;
+}
+
+.block table{
+    border: 1px solid;
+}
+
+td{
+    border: 1px solid ;
+    font-size: 25px;
+}
+
+.block{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 100px;
+}
+
+.footer{
+    width: auto;
+    height: 150px;
+    background-color: rgb(36, 35, 35);
+}
+
+.head{
+    margin-bottom: 100px;
+    width: auto;
+    height: 100px;
+    border: 1px solid ;
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(2, 2, 2);
+}
+
+.head  li{
+    font-size: 35px;
+    list-style: none;
+    margin-top: 25px;
+    color: white;
+}
+
+.footer h1{
+    color: white;
+}
+
+@media (max-width: 1200px) {
+    .header{
+        width: 1000px;
+        display: block;
+    }
+    .info{
+        width: 1000px;
+        display: block;
+    }
+    .inf{
+        width: 1000px;
+        display: block;
+    }
+    .direct{
+        width: 1000px;
+        display: block;
+    }
+    .man{
+        width: 1000px;
+        display: block;
+    }
+    .block{
+        width: 1000px;
+        display: block;
+        margin-top: 500px;
+    }
+    .direct h1{
+        font-size: 20px;
+        margin-top: 50px;
+    }
+}

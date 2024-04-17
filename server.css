@@ -1,0 +1,31 @@
+body{
+    padding: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.log{
+    border: 2px solid;
+    width: 400px;
+    height: 350px;
+    border-radius: 25px;
+}
+
+h1{
+    text-align: center;
+}
+
+button{
+    width: 250px;
+    height: 30px;
+    margin-top: 50px;
+    margin-left: 70px;
+    /* background-color: blue; */
+}
+
+input{
+    width: 250px;
+    height: 20px;
+    margin-left: 63px;
+    margin-bottom: 17px;
+}
